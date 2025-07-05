@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="max-w-md mx-auto mt-10 p-6 bg-white shadow-md rounded-lg">
+        <h1 class="text-3xl font-bold text-center mt-10">Sign Up</h1>
+        <p class="text-center mt-4">Please fill in the form below to create an account.</p>
+        <form action="" method="get">
+            <label for="email">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" class="w-full h-10 border my-3 border-black" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="w-full h-10 border my-3 border-black" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" class="w-full h-10 border my-3 border-black" required>
+            <br><br>
+    
+            <button type="submit" onclick="signup()" class="w-full h-12 bg-dark-500 text-white font-bold rounded-lg hover:bg-dark-700">Sign Up</button>
+        </form>
+    </div>
+    <script src="signup/script.js"></script>
+</body>
+</html>
